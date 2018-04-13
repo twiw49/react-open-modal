@@ -1,0 +1,41 @@
+{
+  "name": "react-open-modal",
+  "version": "1.0.5",
+  "description": "React modal component which you can easily apply without any set-ups.",
+  "main": "build/index.js",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twiw49/react-open-modal.git"
+  },
+  "keywords": ["react", "modal"],
+  "author": "Choi DaeKyu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twiw49/react-open-modal/issues"
+  },
+  "homepage": "https://github.com/twiw49/react-open-modal#readme",
+  "scripts": {
+    "build": "webpack & ./node_modules/webpack/bin/webpack.js -p"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0"
+  },
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-jss": "^8.4.0",
+    "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
+}
